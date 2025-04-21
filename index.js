@@ -1,10 +1,16 @@
-function Circle(radius){
+/* function Circle(radius){
     this.radius = radius;
-    this.draw = function(){
+    this.draw = function (){
         console.log('draw')
     }
 }
 
-Circle.call({}, 1);
+const circle = new Circle(10);
 
-const another = new Circle(1);
+for (let key in circle) {
+    console.log(key, circle[key]);
+}
+
+const keys = Object.keys(circle);
+
+console.log(keys) */
